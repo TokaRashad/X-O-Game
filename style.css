@@ -1,0 +1,80 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+@import url('http://fonts.cdnfonts.com/css/battlestar');
+@import url('http://fonts.cdnfonts.com/css/avocados');
+@import url('http://fonts.cdnfonts.com/css/jessica');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25%;
+}
+
+.container{
+    width: 80%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.container header{
+    text-align: center;
+}
+
+.container header h1{
+    font-family: 'Games', sans-serif;
+    margin-bottom: 2%;
+    color: rgb(39, 38, 38);
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px white;
+}
+
+.container header p{
+    font-family: 'Games', sans-serif;
+    color: rgb(95, 34, 34);
+    margin-bottom: 2%;
+    font-size: 27px;
+    letter-spacing: 3px;
+}
+
+
+.container main{
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+main .row{
+    display: flex;
+    gap: 2px;
+    margin-top: 2px;
+}
+
+main .box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    background-color: #E2DDD5;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Avocados', sans-serif;
+    font-size: 25px;
+    box-shadow: 2px 2px 2px 2px rgb(95, 34, 34);
+}
+
+.container #game{
+    font-family: 'Avocados', sans-serif;
+    color: rgb(95, 34, 34);
+    background-color: rgba(255, 255, 255, 0.377);
+    font-size: 27px;
+    display: inline-block;
+    padding: 3px;
+}
+
+  
